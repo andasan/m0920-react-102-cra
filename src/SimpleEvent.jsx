@@ -22,7 +22,7 @@ export class SimpleEvent extends Component {
         })
     }
 
-    handleSubmit(e){
+    handleSubmit = (e) =>{
         e.preventDefault()
         console.log('Form submitted: ', this.state.inputText)
     }
